@@ -9,6 +9,5 @@ RUN apt-get update && \
     && rm -rf /var/lib/apt/lists/*
 
 EXPOSE 1883
-EXPOSE 9001
 
 CMD ["mosquitto"]
